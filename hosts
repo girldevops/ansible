@@ -1,5 +1,5 @@
 [production]
-52.168.74.221
+$ADDRESS
 [all:vars]
 #ansible_connection=ssh
 ansible_user=azureuser
