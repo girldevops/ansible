@@ -142,7 +142,7 @@ resource "azurerm_virtual_machine" "myterraformvm" {
         disable_password_authentication = true
         ssh_keys {
             path     = "/home/azureuser/.ssh/authorized_keys"
-            key_data = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQClOFBIYlC/N7+ttELSJrbQ1V9hWAhXuHvpYymQ7gPfKKsCmNWYZttnCmAxjcSukdjb5F5xJ/sGUzCJdB8s3ma24byOr2nrAYMuMA0djrOA+Tzy6hB9iBZkaS83b/y/mdSrv6gWLc2OjUxiXX7Olsp/UmT3g+HkTpUdLeENat/brZe1YglI4ItAbKKZccehncdg4+ZLPyMmVtm8SlhTKPnz+V6dlz7zqcrAwpv6ISBftL48qukZFwrQQwMxkdPQWvFMC96tv4XfpMObLPd1i2saf2znfS+yGDFKotC2PRcg5zvrPBdT2hhlSam4u2X4I1Xg/bKGbB+qz0RortKgK43p hajjarbensmail@hajjars-MacBook-Air.local"
+            key_data = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8h9d8bHokBBIalU9txJlMcwDtYsOs0OQPe49k2IbSUNsep+0xS4K1E3NcHzi/BZH8VrP5vOKiCWBArMSQC9z8ctfkNhpyf/4DEIcJSei9CMbzUbIpVwwUzhVqVBUbQM8aOP0SDX4s1VhM9mX9jbd1cfbCzDF8tFHCTU65WXvTmhxmsZmAtInRMgZT/R7eUmEt5pPnxNExALyI4QuP0xWlCP+b0Z3urSUSUW33Ya0ix3HmW+yCvOGSIv1pSvVy3OROV3Dxbg7IWY2Mk0KhLFNFzil1pMDiz1z9n1CCkAArhDRrkOJ5/GxvO7sKtIoFbdRUYuFN20ZV8VcvHZhLbr/v jenkins@hajjars-MacBook-Air.local"
         }
     }
 
